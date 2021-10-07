@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company</OriginalElement>
+  <nodes>
+    <node x="340.41666666666663" y="198.0">com.company.engine</node>
+    <node x="570.8092417061611" y="330.3696682464455">com.company.wheels</node>
+    <node x="566.8092417061611" y="242.99999999999997">com.company.stearing</node>
+    <node x="336.91666666666663" y="398.0">com.company.main</node>
+    <node x="10.25" y="198.0">com.company.Car</node>
+    <node x="571.8092417061611" y="409.5">com.company.brakes</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Car" target="com.company.engine" relationship="TO_ONE">
+      <point x="41.75" y="-139.5" />
+      <point x="135.5" y="172.0" />
+      <point x="411.41666666666663" y="172.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="com.company.main" target="com.company.engine" relationship="DEPENDENCY">
+      <point x="37.25" y="-39.5" />
+      <point x="448.66666666666663" y="503.0" />
+      <point x="187.75" y="503.0" />
+      <point x="187.75" y="172.0" />
+      <point x="458.75" y="172.0" />
+      <point x="47.33333333333337" y="73.0" />
+    </edge>
+    <edge source="com.company.Car" target="com.company.engine" relationship="CREATE">
+      <point x="-41.75" y="-139.5" />
+      <point x="52.0" y="172.0" />
+      <point x="364.08333333333326" y="172.0" />
+      <point x="-47.33333333333334" y="73.0" />
+    </edge>
+    <edge source="com.company.main" target="com.company.Car" relationship="CREATE">
+      <point x="-37.25" y="-39.5" />
+      <point x="374.16666666666663" y="503.0" />
+      <point x="93.75" y="503.0" />
+      <point x="0.0" y="139.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8219745222929936" showDependencies="true" x="324.00000000000006" y="304.0" />
+  <SelectedNodes>
+    <node>com.company.brakes</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
